@@ -24,7 +24,7 @@ namespace quiz_class
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string fileName = @"test.txt";
+            string fileName = @"../../test.txt";
             IEnumerable<string> lines = File.ReadLines(fileName);
 
             foreach (var item in lines)
